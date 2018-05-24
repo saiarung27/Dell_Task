@@ -1,0 +1,122 @@
+*,
+*:before,
+*:after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: sans-serif,helvetica;
+  font-size:16px;
+  }
+  #wrapper{
+    padding:20px;
+    width:1000px;
+    margin:0px auto;
+  }
+  header{
+    overflow: hidden;
+  }
+  header h1{
+    float:left;
+    color:#19334d;
+  }
+  header h1 a{
+    text-decoration: none;
+  }
+  header .headerbox{
+    width:400px;
+  }
+  .showcase  {
+    float:right;
+    overflow: hidden;
+  }
+  .header-box {
+    float:left;
+    padding:7px;
+  }
+  .showcase .fas{
+    font-size: 15px;
+    color:skyblue;
+    padding:5px;
+  }
+  nav {
+    background: #19334d;
+    padding:8px;
+    overflow:hidden;
+  }
+    nav a{
+   float:left;
+   width:120px;
+   padding:4px;
+   text-decoration: none;
+   color:white;
+  }
+  nav a:hover{
+    color:skyblue;
+  }
+  nav a .fas{
+    padding:8px;
+  }
+  .container{
+    background: url("http://via.placeholder.com/900x400");
+    height:400px;
+  }
+  .container h1{
+    color: #19334d;
+    font-size: 45px;
+    padding-top:70px;
+    margin-left:40px;
+  }
+  .container button{
+    padding:10px;
+    color: white;
+    margin-top:25px;
+    margin-left:40px;
+    background: skyblue;
+    border-radius: 7px;
+  }
+  .container-fluid{
+    overflow: hidden;
+    padding:1.5em;
+  }
+.container-fluid .box{
+  width:220px;
+  float: left;
+  padding:20px;
+  text-align: center;
+}
+/* .container-fluid .box:last-child{
+  box-shadow: px 1px ;
+} */
+.box .fas{
+  font-size:30px;
+  color:skyblue;
+  padding:15px;
+}
+.box h4{
+  padding:5px;
+}
+.box p{
+  padding:5px;
+}
+@media only screen and (max-width : 400px) {
+#wrapper{
+  width:100%;
+  padding:20px;
+}
+header   a{
+margin-left:100px;
+}
+nav{
+  display:none;
+}
+header .header-box{
+  width:100%;
+  margin-left:100px;
+ }
+.container-fluid .box{
+  width:100%;
+  text-align: center;
+}
+}
